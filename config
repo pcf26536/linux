@@ -1,4 +1,0 @@
-# GSConnect configs
-Host 192.168.*.*
-HostKeyAlgorithms +ssh-rsa
-PubkeyAcceptedKeyTypes +ssh-rsa
