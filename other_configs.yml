@@ -1,14 +1,4 @@
 # Enable Wayland (Nvidia)
-# 1. /usr/lib/udev/rules.d/61-gdm.rules
-# Comment lines that start with `RUN+="/usr/lib/gdm-runtime-config` after the lines:
-  LABEL="gdm_prefer_xorg"
-  LABEL="gdm_disable_wayland"
-
-# 2. /etc/gdm/custom.conf
-# Uncomment the line below to force the login screen to use Xorg
-#WaylandEnable=false
-
-
 # /etc/default/grub
 # 1. Change:
   GRUB_TIMEOUT=5
@@ -47,35 +37,5 @@ rm -f .config/spotify/prefs
 # Reset monitor configurations (Wayland)
 rm -f .config/monitors.xml
 
-
-# use audio jack on boot
-https://medium.com/@muffwaindan/set-default-pulseaudio-output-device-on-boot-linux-42114f445192
-# /etc/pulse/default.pa
-### Make headphones default
-set-default-sink 0
-set-sink-port 0 analog-output-headphones
-# Remember to restart pulse
-systemctl --user restart pulseaudio
-
-
-# .zshrc
-# enable conda for current user
-[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
-
-# Add the following code to your .zshrc file: mcfly installer
-eval "$(mcfly init zsh)"
-export MCFLY_LIGHT=TRUE
-export MCFLY_RESULTS=50
-
-# Prevents miniconda python from being default python
-export PATH="/usr/bin:/usr/local/bin:/path/to/miniconda/bin:$PATH"
-
-# bat theme
-export BAT_THEME="GitHub"
-
 # remove orphans
 sudo pacman -Rns $(pacman -Qtdq)
-
-# Run intel_gpu_top without sudo
-# Granting the CAP_PERFMON capability to the intel_gpu_top binary using the setcap command.
-sudo setcap cap_perfmon+ep /usr/bin/intel_gpu_top
