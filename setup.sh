@@ -62,3 +62,9 @@ sudo sed -i '/PreferredDisplayServer xorg/s/^/#/' /usr/lib/udev/rules.d/61-gdm.r
 sudo sed -i '/WaylandEnable false/s/^/#/' /usr/lib/udev/rules.d/61-gdm.rules
 # /etc/gdm/custom.conf
 sudo sed -i '/WaylandEnable=false/s/^/#/' /etc/gdm/custom.conf
+
+# D. Remove unwanted packages
+#1. gnome bluetooth
+cp /usr/lib/libgnome-bluetooth-ui-* ~/
+yay -Rdd --nodeps gnome-bluetooth-3.0
+sudo cp ~/libgnome-bluetooth-ui-* /usr/lib/
