@@ -23,6 +23,8 @@ mv .gitconfig ~/
 # Run intel_gpu_top without sudo
 # Granting the CAP_PERFMON capability to the intel_gpu_top binary using the setcap command.
 sudo setcap cap_perfmon+ep /usr/bin/intel_gpu_top
+# Enable fractional scaling
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer', 'kms-modifiers']"
 
 # 4. Append configurations to config files
 # A. ~/.zshrc
