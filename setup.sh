@@ -1,5 +1,9 @@
 # Setup Script for preferred desktop configuration(s) for Manjaro GNOME
-# 1. place each config file in its respective directory
+# 1. add execute permissions to scripts
+chmod +x auto-monitor-scaling.sh
+chmod +x system-upgrade.sh
+
+# 2. place each config file in its respective directory
 mv .zlogin ~/
 sudo mv 09-monitors.conf /etc/X11/xorg.conf.d/
 mv auto-monitor-scaling.sh ~/.config/autostart/
@@ -14,10 +18,6 @@ mv terminator_search.py ~/.config/terminator/plugins/
 mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv user-dirs.dirs ~/.config/
 mv .gitconfig ~/
-
-# 2. add execute permissions to scripts
-chmod +x auto-monitor-scaling.sh
-chmod +x system-upgrade.sh
 
 # 3. other permissions
 # Run intel_gpu_top without sudo
