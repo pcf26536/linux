@@ -14,6 +14,7 @@ mv system-upgrade.sh ~/
 mv terminator_search.py ~/.config/terminator/plugins/
 mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv user-dirs.dirs ~/.config/
+mv .gitconfig ~/
 
 # 2. add execute permissions to scripts
 chmod +x auto-monitor-scaling.sh
