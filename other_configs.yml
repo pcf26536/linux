@@ -39,3 +39,9 @@ rm -f .config/monitors.xml
 
 # remove orphans
 sudo pacman -Rns $(pacman -Qtdq)
+
+# auto accept bluetooth pairing requests
+bluetoothctl agent on
+bluetoothctl default-agent
+bluetoothctl agent NoInputNoOutput
+bluetoothctl agent KeyboardDisplay auto_accept_agent.sh
