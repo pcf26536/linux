@@ -8,7 +8,7 @@ export QT_QPA_PLATFORM="wayland;xcb"
 
 # Matching window decoration for Qt apps on GNOME Wayland
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
-    export QT_QPA_PLATFORMTHEME='gnome'
+    export QT_QPA_PLATFORMTHEME='qt5ct' #other options [gnome, qt6ct]
    # Don't use QT_QPA_PLATFORMTHEME in combination with QT_STYLE_OVERRIDE
    # export QT_STYLE_OVERRIDE=kvantum
 fi
