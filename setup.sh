@@ -10,7 +10,6 @@ mv i2c_dev.conf /etc/modules-load.d/
 mv intel_graphics_monitor.desktop ~/.local/share/applications/
 mv intel.svg ~/.local/share/icons/
 mv kvantum.kvconfig ~/.config/Kvantum/
-mv system-upgrade.sh ~/
 mv terminator_search.py ~/.config/terminator/plugins/
 mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv user-dirs.dirs ~/.config/
