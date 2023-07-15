@@ -1,4 +1,4 @@
-# Preferred Linux Desktop Setup
+# Preferred Manjaro GNOME Setup
 
 includes configurations, desktop files, resources, and scripts
 
