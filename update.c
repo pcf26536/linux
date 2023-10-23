@@ -8,5 +8,5 @@
 
 int main()
 {
-    system("/mnt/files/Repositories/linux/system-upgrade.sh");
+    system("system-upgrade.sh");
 }
