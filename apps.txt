@@ -1,0 +1,12 @@
+gddccontrol pkgconf make
+audiorelay
+frog-ocr
+brave-browser
+copyq
+visual-studio-code-bin
+intel-gpu-tools
+notepadqq
+spotify-adblock
+whatsdesk-bin
+googlekeep
+rate-mirrors
