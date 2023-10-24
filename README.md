@@ -1,13 +1,6 @@
-# Preferred Manjaro GNOME Setup
+# Manjaro Setup
 
 includes configurations, desktop files, resources, and scripts
-
-## Instructions
-
-- download zip/clone repo
-- check *setup.sh* for unecessary configs i.e. comment/delete them
-- make *setup.sh* executable: `chmod +x setup.sh`
-- run *setup.sh*: `./setup.sh`
 
 ## Descriptions
 
