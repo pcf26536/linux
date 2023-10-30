@@ -10,3 +10,7 @@ spotify-adblock
 whatsdesk-bin
 googlekeep
 rate-mirrors
+rclone-browser
+parabolic
+tenacity-git
+vlc
