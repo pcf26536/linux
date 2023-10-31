@@ -45,3 +45,13 @@ bluetoothctl agent on
 bluetoothctl default-agent
 bluetoothctl agent NoInputNoOutput
 bluetoothctl agent KeyboardDisplay auto_accept_agent.sh
+
+# /etc/profile
+export XDG_DATA_HOME="$HOME/.local/share"
+
+# KDE Fractional scaling
+# /etc/environment
+PLASMA_USE_QT_SCALING=1
+
+# /etc/fstab
+UUID=051be97-8212-476a-81b8-4894580ee68c /data           ext4    defaults,noatime 0 2
