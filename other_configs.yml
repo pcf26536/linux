@@ -54,4 +54,4 @@ export XDG_DATA_HOME="$HOME/.local/share"
 PLASMA_USE_QT_SCALING=1
 
 # /etc/fstab
-UUID=051be97-8212-476a-81b8-4894580ee68c /data           ext4    defaults,noatime 0 2
+UUID=ad88e4f0-92ee-42c5-ae87-7957308176ad /data           ext4    defaults,noatime 0 0
