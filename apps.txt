@@ -12,5 +12,10 @@ googlekeep
 rate-mirrors
 rclone-browser
 parabolic
-tenacity-git
+chaotic-aur/tenacity-git
 vlc
+xdman-beta-bin
+universal-android-debloater-bin
+wimlib
+onlyoffice-desktopeditors
+gnome-calculator
