@@ -49,9 +49,8 @@ bluetoothctl agent KeyboardDisplay auto_accept_agent.sh
 # /etc/profile
 export XDG_DATA_HOME="$HOME/.local/share"
 
-# KDE Fractional scaling
-# /etc/environment
-PLASMA_USE_QT_SCALING=1
-
 # /etc/fstab
 UUID=ad88e4f0-92ee-42c5-ae87-7957308176ad /data           ext4    defaults,noatime 0 0
+
+# TRIM helps to clean blocks in your SSD and extend the lifespan of your SSD.
+sudo systemctl enable fstrim.timer
