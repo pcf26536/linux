@@ -1,5 +1,6 @@
 intel-media-driver
 gddccontrol pkgconf make
+jdk-openjdk
 audiorelay
 frog-ocr
 brave-browser
@@ -13,10 +14,9 @@ googlekeep
 rate-mirrors
 rclone-browser
 parabolic
-chaotic-aur/tenacity-git
-vlc
+audacity
 xdman-beta-bin
 universal-android-debloater-bin
 wimlib
 onlyoffice-desktopeditors
-gnome-calculator
+deemix-gui-git

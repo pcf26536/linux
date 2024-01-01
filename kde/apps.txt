@@ -1,1 +1,7 @@
 plasma-wayland-session
+geary
+gnome-control-center
+haruna
+xsettingsd
+xdg-desktop-portal-gtk
+gnome-calculator
