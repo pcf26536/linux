@@ -18,6 +18,7 @@ mv terminator_search.py ~/.config/terminator/plugins/
 mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv user-dirs.dirs ~/.config/
 mv .gitconfig ~/
+mv i2c.rules /etc/udev/rules.d/
 
 # 3. other permissions
 # Run intel_gpu_top without sudo
