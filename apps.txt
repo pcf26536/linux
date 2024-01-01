@@ -1,3 +1,4 @@
+intel-media-driver
 gddccontrol pkgconf make
 audiorelay
 frog-ocr
