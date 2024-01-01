@@ -70,3 +70,6 @@ sudo sed -i '/WaylandEnable=false/s/^/#/' /etc/gdm/custom.conf
 cp /usr/lib/libgnome-bluetooth-ui-* ~/
 yay -Rdd --nodeps gnome-bluetooth-3.0
 sudo cp ~/libgnome-bluetooth-ui-* /usr/lib/
+
+# Remove libva-intel-driver: prefer intel-media-driver for HD Graphics 530
+sudo pacman -R libva-intel-driver lib32-libva-intel-driver
