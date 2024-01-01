@@ -74,3 +74,6 @@ sudo cp ~/libgnome-bluetooth-ui-* /usr/lib/
 
 # Remove libva-intel-driver: prefer intel-media-driver for HD Graphics 530
 sudo pacman -R libva-intel-driver lib32-libva-intel-driver
+
+# Add current user to i2c group
+sudo gpasswd --add $USER i2c
