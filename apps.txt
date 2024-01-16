@@ -1,4 +1,5 @@
 intel-media-driver
+mkinitcpio-firmware
 gddccontrol pkgconf make
 jdk-openjdk
 audiorelay
