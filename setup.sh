@@ -19,6 +19,8 @@ mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv user-dirs.dirs ~/.config/
 mv .gitconfig ~/
 mv i2c.rules /etc/udev/rules.d/
+# KDE
+mv kde/*dpi.conf /etc/sddm.conf.d/
 
 # 3. other permissions
 # Run intel_gpu_top without sudo
