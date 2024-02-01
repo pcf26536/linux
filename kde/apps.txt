@@ -5,3 +5,5 @@ haruna
 xsettingsd
 xdg-desktop-portal-gtk
 gnome-calculator
+qt5-virtualkeyboard
+gnome-calendar
