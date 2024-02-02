@@ -3,6 +3,7 @@ mv .zlogin ~/
 mv kvantum.kvconfig ~/.config/Kvantum/
 mv terminator_search.py ~/.config/terminator/plugins/
 mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
+mv electron-flags.conf ~/.config/
 
 # Remove unwanted packages
 # gnome bluetooth

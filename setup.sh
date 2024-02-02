@@ -7,7 +7,6 @@ chmod +x system-upgrade.sh
 sudo mv 09-monitors.conf /etc/X11/xorg.conf.d/
 mv auto-monitor-scaling.sh ~/.config/autostart/
 mv brave-flags.conf ~/.config/
-mv electron-flags.conf ~/.config/
 mv htop.desktop ~/.local/share/applications/
 mv i2c_dev.conf /etc/modules-load.d/
 mv intel_graphics_monitor.desktop ~/.local/share/applications/
