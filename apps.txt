@@ -20,4 +20,5 @@ xdman-beta-bin
 universal-android-debloater-bin
 wimlib
 onlyoffice-desktopeditors
-deemix-gui-git
+tk
+tree
