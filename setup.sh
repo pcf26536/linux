@@ -37,3 +37,7 @@ sudo pacman -R libva-intel-driver lib32-libva-intel-driver
 
 # Add current user to i2c group
 sudo gpasswd --add $USER i2c
+
+# OPTIONALS
+# refind theme
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)" 
