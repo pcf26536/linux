@@ -37,23 +37,3 @@ sudo pacman -R libva-intel-driver lib32-libva-intel-driver
 
 # Add current user to i2c group
 sudo gpasswd --add $USER i2c
-
-# Edit desktop files to execute with discrete card
-browser_names = "firefox microsoft-edge brave-browser"
-for browser in $browser_names
-do
-    echo "Copying $browser desktop file"
-    if cp /usr/share/applications/$browser.desktop ~/.local/share/applications
-    then
-        echo "Copy successful"
-        echo "Sed prime-run command to Exec property on $browser.desktop file"
-        if sed -i '/^Exec=/ s/=/=&prime-run /' ~/.local/share/applications/$browser.desktop
-        then
-            echo "Sed successful"
-        else
-            echo "Sed failed"
-        fi
-    else
-        echo "Copy failed"
-    fi
-done
