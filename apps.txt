@@ -22,3 +22,12 @@ wimlib
 onlyoffice-desktopeditors
 tk
 tree
+manjaro-downgrade
+kid3
+yt-music-player
+# optional
+cuda
+opencl-nvidia
+vulkan-mesa-layers
+vulkan-intel
+libva-utils
