@@ -1,8 +1,6 @@
 # move config files
 mv .zlogin ~/
 mv kvantum.kvconfig ~/.config/Kvantum/
-mv terminator_search.py ~/.config/terminator/plugins/
-mv Terminator.desktop ~/.local/share/kservices5/ServiceMenus/
 mv electron-flags.conf ~/.config/
 
 # Remove unwanted packages
@@ -37,8 +35,3 @@ export MCFLY_RESULTS=50
 
 # bat theme
 export BAT_THEME="GitHub"
-
-# export path to terminal
-export TERMINAL=/usr/bin/terminator
-export TERM=terminator
-EOF
