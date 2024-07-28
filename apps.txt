@@ -1,30 +1,20 @@
-intel-media-driver
 mkinitcpio-firmware
 gddccontrol pkgconf make
-jdk-openjdk
-audiorelay
 frog-ocr
-brave-browser
 copyq
 visual-studio-code-bin
 intel-gpu-tools
-notepadqq
-spotify-adblock
-whatsdesk-bin
 googlekeep
 rate-mirrors
-rclone-browser
 parabolic
 audacity
 xdman-beta-bin
 universal-android-debloater-bin
 wimlib
-onlyoffice-desktopeditors
 tk
 tree
 manjaro-downgrade
 kid3
-yt-music-player
 # optional
 cuda
 opencl-nvidia
