@@ -15,6 +15,14 @@ tk
 tree
 manjaro-downgrade
 kid3
+soundwire
+youtube-music-bin
+deepin-terminal
+deepin-editor
+deepin-calculator
+librewolf
+microsoft-edge-stable-bin
+zapzap
 # optional
 cuda
 opencl-nvidia
