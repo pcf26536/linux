@@ -23,6 +23,7 @@ deepin-calculator
 librewolf
 microsoft-edge-stable-bin
 zapzap
+haruna
 # optional
 cuda
 opencl-nvidia

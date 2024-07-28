@@ -1,5 +1,4 @@
 plasma-wayland-session
 geary
 gnome-control-center
-haruna
 gnome-calendar
