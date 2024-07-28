@@ -30,6 +30,3 @@ fi
 
 # Using KDE file picker (kdialog) as default
 #export GTK_USE_PORTAL=1
-
-# export path to terminal
-export TERMINAL=/usr/bin/terminator
